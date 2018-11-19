@@ -2,6 +2,13 @@
 //Tomado de:
 //https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
 
+//Es un algoritmo perteneciente a la teoría de los grafos para encontrar un árbol recubridor mínimo en un grafo conexo,
+//no dirigido y cuyas aristas están etiquetadas.
+
+//En otras palabras, el algoritmo encuentra un subconjunto de aristas que forman un árbol con todos los vértices,
+//donde el peso total de todas las aristas en el árbol es el mínimo posible. Si el grafo no es conexo,
+//entonces el algoritmo encontrará el árbol recubridor mínimo para uno de los componentes conexos que forman dicho grafo no conexo.
+
 import java.util.*; 
 import java.lang.*; 
 import java.io.*; 
