@@ -1,6 +1,12 @@
 //añadido por: Santiago Alvarez
+
 //Tomado de:
 //https://www.geeksforgeeks.org/floyd-warshall-algorithm-dp-16/
+
+//Es un algoritmo para encontrar caminos más cortos en un gráfico ponderado con 
+//pesos de borde positivo o negativo (pero sin ciclos negativos).
+//Este algoritmo está diseñado para calcular los caminos cortos de todos los pares,
+//a diferencia de Dijkstra el cual es necesario tener un nodo fuente origen.
 
 import java.util.*; 
 import java.lang.*; 
@@ -70,5 +76,4 @@ class AllPairShortestPath
 			System.out.println(); 
 		} 
 	} 
-
 }
