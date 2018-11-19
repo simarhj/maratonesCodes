@@ -1,6 +1,12 @@
 //Añadido por: Santiago Alvarez
 //Tomado de:
 //https://www.geeksforgeeks.org/kruskals-minimum-spanning-tree-algorithm-greedy-algo-2/
+
+//Es un algoritmo de la teoría de grafos para encontrar un árbol recubridor mínimo en un grafo conexo y ponderado. 
+//Es decir, busca un subconjunto de aristas que, formando un árbol, incluyen todos los vértices y donde el valor total 
+//de todas las aristas del árbol es el mínimo. Si el grafo no es conexo, entonces busca un bosque expandido mínimo
+//(un árbol expandido mínimo para cada componente conexa).
+
 import java.util.*; 
 import java.lang.*; 
 import java.io.*; 
