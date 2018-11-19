@@ -1,5 +1,6 @@
-// A Java program for Prim's Minimum Spanning Tree (MST) algorithm. 
-// The program is for adjacency matrix representation of the graph 
+//Añadido por: Santiago Alvarez
+//Tomado de:
+//https://www.geeksforgeeks.org/prims-minimum-spanning-tree-mst-greedy-algo-5/
 
 import java.util.*; 
 import java.lang.*; 
