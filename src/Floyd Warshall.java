@@ -71,20 +71,4 @@ class AllPairShortestPath
 		} 
 	} 
 
-	// Driver program to test above function 
-	public static void main (String[] args) 
-	{ 
-  
-		int graph[][] = { {0, 5, INF, 10}, 
-						{INF, 0, 3, INF}, 
-						{INF, INF, 0, 1}, 
-						{INF, INF, INF, 0} 
-						}; 
-		AllPairShortestPath a = new AllPairShortestPath(); 
-
-		// Print the solution 
-		a.floydWarshall(graph); 
-	} 
-} 
-
-// Contributed by Aakash Hasija 
+}
