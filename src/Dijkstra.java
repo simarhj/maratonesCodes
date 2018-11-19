@@ -2,6 +2,8 @@
 //Tomado de:
 //https://www.lawebdelprogramador.com/codigo/Java/3557-Codigo-de-la-ruta-mas-corta-DIJKSTRA.html
 
+//¿Como funciona el Algoritmo de Dijkstra?. También llamado algoritmo de caminos mínimos, es un algoritmo para la determinación del
+//camino más corto dado un vértice origen al resto de vértices en un grafo con pesos en cada arista.
 
 public String DijkstraPrincipal(E v_origen, E v_destino) {
         String camino = "";//camino final que sera devuelto.
