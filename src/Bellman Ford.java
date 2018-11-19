@@ -2,8 +2,10 @@
 //Tomado de: 
 //https://www.geeksforgeeks.org/bellman-ford-algorithm-dp-23/
 
-// A Java program for Bellman-Ford's single source shortest path 
-// algorithm. 
+//El algoritmo de Bellman-Ford determina la ruta más corta desde un nodo origen hacia los demás nodos para 
+//ello es requerido como entrada un grafo cuyas aristas posean pesos. La diferencia de este algoritmo con los
+//demás es que los pesos pueden tener valores negativos ya que Bellman-Ford me permite detectar la existencia de un ciclo negativo.
+
 import java.util.*; 
 import java.lang.*; 
 import java.io.*; 
